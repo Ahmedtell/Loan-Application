@@ -22,7 +22,7 @@ export default function Loan() {
             setShowErrorMessage("Age can't be less than 18 years ⚠️");
         }
         else if (loanForm.age > 100) {
-            setShowErrorMessage("Age can't be more than 100 year ⚠️")
+            setShowErrorMessage("Age can't be more than 100 years ⚠️")
         }
         else if (loanForm.phone.length !== 10) {
 
