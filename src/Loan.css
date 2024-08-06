@@ -1,10 +1,8 @@
-
 .flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 #modal {
     position: fixed;
@@ -14,15 +12,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000; 
+    z-index: 1000;
 }
 
 #modal-content {
     background-color: white;
-    padding: 20px; 
+    padding: 20px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
     width: 80%;
-    max-width: 500px; 
+    max-width: 500px;
     text-align: center;
 }
 
@@ -33,94 +31,96 @@
     font-family: 'Arial', sans-serif;
 }
 
-
 #loan-form {
-    background-color: #ffffff; 
-    color: #333333; 
-    padding: 20px; 
+    background: linear-gradient(to bottom, #0073e6, #003366); /* Gradient from light blue to dark blue */
+    color: white; /* Text color suitable with gradient background */
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
     width: 90%;
-    max-width: 400px; 
-    text-align: left; 
-    font-family: 'Arial', sans-serif; 
+    max-width: 400px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+}
 
 #loan-form h1 {
-    color: #0d153a;
+    color: white; /* Text color suitable with gradient background */
     font-weight: 700;
-    font-size: 1.2em; 
-    margin-bottom: 15px; 
+    font-size: 1.2em;
+    margin-bottom: 15px;
 }
 
 label {
-    display: block; 
-    margin-top: 10px; 
+    display: block;
+    margin-top: 10px;
     margin-bottom: 5px;
-    font-weight: bold; 
-    color: #0d153a; 
+    font-weight: bold;
+    color: white; /* Text color suitable with gradient background */
 }
 
 input, select {
     width: 100%;
     height: 30px;
-    border: 1px solid #ccc; 
+    border: 1px solid #ccc;
     border-radius: 5px;
     padding: 5px 10px;
-    font-size: 14px; 
+    font-size: 14px;
     box-sizing: border-box;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
+    background-color: white;
+    color: #333333; /* Input text color */
 }
 
 input[type="checkbox"] {
     width: auto;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 #submit-loan-btn {
-    margin-top: 15px; 
+    margin-top: 15px;
     border: none;
-    font-size: 14px; 
-    padding: 8px 15px; 
+    font-size: 14px;
+    padding: 8px 15px;
     border-radius: 5px;
-    background-color: #228B22; 
+    background-color: #228B22;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 #submit-loan-btn:hover {
-    background-color: #006400; 
+    background-color: #006400;
 }
 
 .disabled {
-    background-color: #b3b3b3 !important; 
-    cursor: not-allowed; 
+    background-color: #b3b3b3 !important;
+    cursor: not-allowed;
 }
 
 hr {
     width: 100%;
     border: none;
-    border-top: 2px solid #0d153a; 
-    margin: 10px 0; 
+    border-top: 2px solid white; /* Adjusted to be visible on gradient background */
+    margin: 10px 0;
 }
 
 #check {
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 body {
-    color: #4a4a4a; 
+    color: #4a4a4a;
+    background-color: rgb(225 29 72);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #333333; 
+    color: white; /* Text color suitable with gradient background */
 }
 
 label {
-    color: #4a4a4a; 
+    color: white; /* Text color suitable with gradient background */
 }
 
 input, select {
-    color: #333333; 
-}
+    color: #333333; /* Input text color */
 }
